@@ -25,3 +25,10 @@ Work on this.
 End product.
 Working website for Viral.
 Database of information from YouTube.
+
+
+Where do we start?
+First MiniConda Installation.
+Previously installed Anaconda but a lot of files are not required. Using Miniconda is a better option.
+What is Miniconda? An environment manager to handle python downloads.
+
