@@ -26,9 +26,43 @@ End product.
 Working website for Viral.
 Database of information from YouTube.
 
+Before this going to be using Git to create new project Viral.
+Need GitHub desktop to simplify commits.
 
 Where do we start?
-First MiniConda Installation.
-Previously installed Anaconda but a lot of files are not required. Using Miniconda is a better option.
-What is Miniconda? An environment manager to handle python downloads.
+First Conda.
+Package manager. It is coupled with Anaconda and Miniconda. Miniconda is an installer for an empty conda environment while Anaconda comes installed with several other open source projects.
+It can build and manage software from any language not just python. While pip is just for python packages.
+Conda has its own built in environment manager which is better than creating python environment with virtualenv.
+Conda has two channels at the moment, one is its default and the second is conda-forge which has open source packages.
+One can avoid using Anaconda completely and directly install conda with pip.
+
+Here I am using MiniConda. Following tutorial.
+Setup to install all packages from conda forge.
+
+
+Done.
+
+Next.
+We are going to be creating a Flask Application.
+Flask is a web framework for Python. Another is Django.
+We are going to be using a Flask API, SQL Alchemt as an ORM which has a PostgreSQL databse and Alembic for migrations.
+
+INSTALLATION COMMAND.
+Conda install -c conda-forge --override-channels flask flask-restful flask-sqlalchemy flask-migrate alembic psycopq2
+
+Ready to use.
+Now we need a text editor.
+Going to be using Atom.
+
+Open git repository in Atom.
+Ready to create conda env here.
+Repeat the above but in the new git repo folder.
+
+
+
+
+
+
+
 
